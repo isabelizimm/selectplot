@@ -1,0 +1,14 @@
+[project]
+name = "selectplot"
+version = "0.1.0"
+description = "Scatter plot widget: drag a box over points to copy them to the clipboard as an array."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["anywidget", "numpy", "traitlets"]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
